@@ -1,2 +1,1 @@
-# pwd
-# pwd
+Welcome to Programming with Data (PWD)
