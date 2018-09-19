@@ -1,3 +1,5 @@
+# Code to generate to benchmark a binary search algorithm with random generated
+# lists and keys.
 import random as rand
 import time as time
 def generateKey(data,base,N,MAX):
