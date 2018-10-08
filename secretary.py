@@ -12,6 +12,7 @@ ratio_k_n = [round(optimal_sample_size_k[i]/cand_list[i],4) for i in range(len(o
 print(ratio_k_n)
 
 approx_prob_success_p = [round((i*math.log(i)*-1),4) for i in ratio_k_n]
+#(ratio_k_n[i]*math.log(ratio_k_n[i],2.71))
 print(approx_prob_success_p)
 
 fig, ax = plt.subplots()
